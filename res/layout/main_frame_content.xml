@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/white"
+    android:orientation="vertical">
+ <!-- 
+    <cn.lijie.customView.PullToRefreshView 
+        android:visibility="gone"
+        android:id="@+id/pullToRefresh"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ScrollView
+	        android:id="@+id/scrollview"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:cacheColorHint="#00000000" >
+	
+	        <cn.lijie.customView.BaseTextView
+	            android:id="@+id/textview"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:text="dhgioahgpohafgjhi你好哈哈哈哈哈哈dhgioahgpohafgjhiohafgjhiohafgjhidhgioahgpohafgjhi你好哈哈哈哈哈哈dhgioahgpohafgjhiohafgjhiohafgjhi"
+	            android:textColor="#000000"
+	            android:textSize="64sp" />
+   		</ScrollView>
+    </cn.lijie.customView.PullToRefreshView>
+   -->
+    <Button
+        android:id="@+id/scrolltestActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scrolltestActivity"/>
+        
+    <Button
+        android:id="@+id/scrollCalendarActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scrollCalendarActivity"/>
+    
+    <Button
+        android:id="@+id/swipeViewtestActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="swipeViewtestActivity"/>
+    
+    <Button
+        android:id="@+id/scrollerTestViewActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scrollerTestViewActivity"/>
+    
+    <Button
+        android:id="@+id/calendarViewActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calendarViewActivity"/>
+    
+    <Button
+        android:id="@+id/QRCodeActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QRCodeActivity"/>
+    
+    <Button
+        android:id="@+id/wheelActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wheelActivity"/>
+    
+    <cn.lijie.customView.ScrollerTestView
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp">
+        
+    </cn.lijie.customView.ScrollerTestView>
+	<TextView 
+	    android:visibility="gone"
+	    android:id="@+id/test"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="ddhidgg"/>
+	
+	<cn.lijie.customView.CalendarView
+	    android:visibility="gone"
+	    android:id="@+id/calendar"
+	    android:layout_width="fill_parent"
+	    android:layout_height="200dp">
+	    
+	</cn.lijie.customView.CalendarView>
+	
+	<LinearLayout 
+	    android:visibility="gone"
+        android:layout_gravity="center_horizontal" 
+        android:orientation="horizontal" android:paddingLeft="12.0dip" 
+        android:paddingTop="4.0dip" android:paddingRight="12.0dip" 
+        android:layout_width="fill_parent" 
+        android:layout_height="200dp" 
+        android:layout_marginTop="8.0dip">
+        <android.wheel.test.WheelView 
+            android:layout_gravity="center_vertical" 
+            android:id="@+id/hourChooser" 
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent" 
+            android:layout_weight="1" />
+        <android.wheel.test.WheelView 
+            android:layout_gravity="center_vertical" 
+            android:id="@+id/minuChooser" 
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent" 
+            android:layout_marginLeft="10.0dip" 
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
