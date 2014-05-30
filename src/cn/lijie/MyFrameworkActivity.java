@@ -30,6 +30,7 @@ import cn.lijie.activity.QRCodeActivity;
 import cn.lijie.activity.ScrollCalendarActivity;
 import cn.lijie.activity.ScrollerTestViewActivity;
 import cn.lijie.activity.ScrolltestActivity;
+import cn.lijie.activity.SoundRecoderActivity;
 import cn.lijie.activity.SwipeViewtestActivity;
 import cn.lijie.activity.WheelActivity;
 import cn.lijie.customView.CalendarView;
@@ -76,6 +77,7 @@ public class MyFrameworkActivity extends SlidingSerlockActivity implements Senso
         findViewById(R.id.calendarViewActivity).setOnClickListener(clickListener);
         findViewById(R.id.QRCodeActivity).setOnClickListener(clickListener);
         findViewById(R.id.wheelActivity).setOnClickListener(clickListener);
+        findViewById(R.id.soundRecoderActivity).setOnClickListener(clickListener);
         
         
         detector=new GestureDetector(new OnGestureListener() {
@@ -562,6 +564,10 @@ public class MyFrameworkActivity extends SlidingSerlockActivity implements Senso
 			case R.id.wheelActivity:
 				Intent intent7=new Intent(getApplicationContext(), WheelActivity.class);
 				startActivity(intent7);
+				break;
+			case R.id.soundRecoderActivity:
+				Intent intent8=new Intent(getApplicationContext(), SoundRecoderActivity.class);
+				startActivity(intent8);
 				break;
 			}
 		}

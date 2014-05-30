@@ -46,6 +46,9 @@
             android:name="cn.lijie.activity.QRCodeActivity"></activity>
         <activity 
             android:name="cn.lijie.activity.WheelActivity"></activity>
+        <activity 
+            android:name="cn.lijie.activity.SoundRecoderActivity"></activity>
+        
     </application>
 
 </manifest>

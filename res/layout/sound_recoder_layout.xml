@@ -7,6 +7,12 @@
         android:id="@+id/recoder"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="start"/>
+        android:text="startRecoder"/>
+    
+    <Button 
+        android:id="@+id/play"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="startPlay"/>
 
 </LinearLayout>
