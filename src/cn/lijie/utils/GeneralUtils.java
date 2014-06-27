@@ -1,5 +1,8 @@
 package cn.lijie.utils;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import android.content.Context;
 import android.view.WindowManager;
 
@@ -18,5 +21,9 @@ public class GeneralUtils {
 			screenSize.screenHeight = wm.getDefaultDisplay().getHeight();	//ÆÁÄ»¸ß¶È
 		}
 		return screenSize;
+	}
+	
+	public static String formatTime(String formatString,long timeMillis){
+		return new SimpleDateFormat(formatString).format(new Date(timeMillis));
 	}
 }
